@@ -12,8 +12,8 @@ DT2212-MUSIC-ACOUSTICS/
 │   ├── Gsp_ME_p_L-sus_F#5.wav              # Source Audio: Soft Strike F#5
 │   ├── Gsp_ME_p_L-sus_F#6.wav              # Source Audio: Soft Strike F#6
 │   └── modalsynthesis.py                   # Core synthesis script
-├── Singing-Synthesis/
-│   ├── DT2212-Singing-Synthesis-Report.pdf # Technical Report
+├── Voice-Synthesis/
+│   ├── DT2212-Voice-Synthesis-Report.pdf # Technical Report
 │   ├── alex_recording_home_cut.wav         # Natural voice reference recording
 │   └── voicesynthesis.py                   # Core synthesis script
 └── README.md
@@ -34,7 +34,7 @@ This assignment explores whether a complex percussion instrument can be realisti
 ### Key Concepts Explored:
 * **Spectral Analysis:** Performed Fast Fourier Transform (FFT) utilizing a 100ms rectangular window with zero padding to identify modal frequencies during the attack (0.0s) and decay (0.7s) phases.
 * **Envelope Estimation:** Modeled the amplitude envelope of the partials based on a simple exponential decay law ($A(t)=A_{0}e^{-\gamma t}$). The algorithm specifically handles negative gamma values to prevent modes from artificially growing louder over time.
-* **Synthesis & Critique:** Constructed a playback implementation mapping the decaying sinusoids to generate a synthetic melody using Equal Temperament pitch shifting. [cite_start]The report includes a deep critique of the limitations of simple additive synthesis, detailing issues like spectral leakage from rectangular windowing, the instability of two-point decay estimation, and the lack of non-linear damping.
+* **Synthesis & Critique:** Constructed a playback implementation mapping the decaying sinusoids to generate a synthetic melody using Equal Temperament pitch shifting. The report includes a deep critique of the limitations of simple additive synthesis, detailing issues like spectral leakage from rectangular windowing, the instability of two-point decay estimation, and the lack of non-linear damping.
 
 * **[Read the Full Modal Synthesis Report (PDF)](Modal-Synthesis/DT2212-Modal-Synthesis-Report.pdf)**
 
@@ -50,7 +50,7 @@ This assignment constructs a digital model of the human voice by generating an i
 * **Evaluation:** Synthesized a melodic sequence of "Twinkle Twinkle Little Star" transitioning through the vowels `[a] -> [oe] -> [i] -> [u] -> [a2]`. The results were evaluated against a natural human voice recording using spectrogram comparisons. 
 * **Critique:** The report details why basic synthesis sounds "robotic", analyzing the drawbacks of perfectly locked phase relationships, static filter coefficients, and the lack of turbulent noise (breathiness).
 
-* **[Read the Full Singing Synthesis Report (PDF)](Singing-Synthesis/DT2212-Singing-Synthesis-Report.pdf)**
+* **[Read the Full Voice Synthesis Report (PDF)](Voice-Synthesis/DT2212-Voice-Synthesis-Report.pdf)**
 
 ---
 
