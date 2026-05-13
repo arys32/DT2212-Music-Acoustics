@@ -24,7 +24,7 @@ This assignment constructs a digital model of the human vocal tract to create a 
 * **The Process:** Generated an idealized glottal source (with natural vibrato) and processed it through five cascaded two-pole resonators acting as formant filters to shape specific vowels.
 * **The Result:** Synthesized a dynamic vocal sequence (`[a] -> [oe] -> [i] -> [u] -> [a2]`) and evaluated it against a real human voice.
 
-![Voice Synthesis Spectrogram Comparison](./images/Comparison_Spectogram.png)
+<img src="./images/Comparison_Spectogram.png" width="50%" alt="Voice Synthesis Spectrogram Comparison">
 
 📄 **[Read the Full Technical Report (PDF)](Voice-Synthesis/DT2212-Voice-Synthesis-Report.pdf)**
 
