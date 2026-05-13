@@ -13,7 +13,7 @@ DT2212-MUSIC-ACOUSTICS/
 │   ├── Gsp_ME_p_L-sus_F#6.wav              # Source Audio: Soft Strike F#6
 │   └── modalsynthesis.py                   # Core synthesis script
 ├── Voice-Synthesis/
-│   ├── DT2212-Voice-Synthesis-Report.pdf # Technical Report
+│   ├── DT2212-Voice-Synthesis-Report.pdf   # Technical Report
 │   ├── alex_recording_home_cut.wav         # Natural voice reference recording
 │   └── voicesynthesis.py                   # Core synthesis script
 └── README.md
